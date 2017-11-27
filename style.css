@@ -1,0 +1,83 @@
+/* -- Header section --*/
+
+header {
+  font-family: 'Fjalla One';
+  height: 100px;
+  background-color: #fff;
+  padding-top: 3%;
+  margin: 0;
+}
+
+/* -- Main body and content section --*/
+
+body {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+main {
+  color: #333;
+}
+
+/* -- Bottom footer content --*/
+
+footer {
+  font-family: 'Cantarell';
+  font-style: italic;
+  font-size: 0.89rem;
+  color: #999;
+  padding: 3% 0;
+}
+
+/* -- Header Paragraph Style --*/
+
+.wrapper h1 {
+  font-family: 'Fjalla One';
+  font-size: 3rem;
+}
+
+/* -- Intro Paragraph and List Styles --*/
+
+.main h2 {
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.main h3 {
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  font-size: 1.15em;
+}
+
+/* -- Main Content Formatting --*/
+
+.main, .wrapper {
+  font-family: 'Cantarell';
+  width: 600px;
+  margin: auto;
+}
+
+/* ----------Psuedo Codes-----------*/
+
+a:link {
+  color: #333;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: pink;
+}
